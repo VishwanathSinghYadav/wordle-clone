@@ -21,12 +21,32 @@ button:active {
 
 .title-container {
     text-align: center;
-    width: 510px;
+    width: 490px;
     border-bottom: solid 1px #3a3a3c;
 }
 
+.message-container {
+    width: 150px;
+    height: 35px;
+    min-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-container p {
+    width: 100px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #818384;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+}
+
 .tile-container {
-    width: 330px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -62,25 +82,14 @@ button:active {
 }
 
 .tile-container .tile {
-    width: 62px;
-    height: 62px;
+    width: 55px;
+    height: 55px;
     border: 2px solid#3a3a3c;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 2px;
-}
-
-.message-container {
-    height: 30px;
-}
-
-.message-container p {
-    background-color: #818384;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 0;
 }
 
 .tile.flip {
