@@ -1,0 +1,27 @@
+{
+    "name": "wordle-clone",
+    "version": "1.0.0",
+    "description": "This is a clone of popular game WORDLE using JavaScript and CSS.\r Thanks to Ania Kubów for teaching. \r https://youtu.be/mpby4HiElek",
+    "main": "script.js",
+    "scripts": {
+        "start:backend": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VishwanathSinghYadav/wordle-clone.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VishwanathSinghYadav/wordle-clone/issues"
+    },
+    "homepage": "https://github.com/VishwanathSinghYadav/wordle-clone#readme",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.2",
+        "nodemon": "^2.0.15"
+    }
+}
